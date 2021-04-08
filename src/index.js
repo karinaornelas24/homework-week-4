@@ -1,14 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import DisplayTemperature from "./DisplayTemperature";
 import Weather from "./Weather";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
     <Weather />
     <DisplayTemperature />
   </React.StrictMode>,

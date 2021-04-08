@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "./index.css";
 
 export default function DisplayTemperature() {
   let [city, setCity] = useState("");
@@ -43,7 +44,6 @@ export default function DisplayTemperature() {
   if (searched) {
     return (
       <div>
-        {form}
         <ul>
           <li>Temperature: {Math.round(weather.temperature)}°C</li>
           <li>Description: {weather.description}</li>
